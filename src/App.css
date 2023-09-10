@@ -1,0 +1,19 @@
+body {
+  background-image: url(./assets/bg.png);
+  background-size: cover;
+}
+
+#name {
+  position: relative;
+  text-align: center;
+  top: 120px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#name h1 {
+  margin-left: 20px;
+  color: #dddddd;
+}

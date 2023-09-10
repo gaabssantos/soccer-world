@@ -1,0 +1,79 @@
+.container {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+    background-color: #282c32;
+    border-radius: 20px;
+}
+
+.container h3 {
+    font-size: 2rem;
+    margin: 2rem;
+    color: #fff;
+}
+
+.select-container p, .select-container span {
+    color: #fff;
+    margin: .5rem 0;
+    padding: .5rem;
+}
+
+.select-container input, .no-error {
+    padding: .5rem;
+    margin: .5rem;
+    background-color: #37384A;
+    border: none;
+    border-radius: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 92%;
+    color: #fff;
+}
+
+.division {
+    border: 1px solid gray;
+    margin: 1.4rem;
+}
+
+#countries {
+    margin: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#countries::-webkit-scrollbar {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#countries::-webkit-scrollbar-thumb {
+    background-color: orange;
+}
+
+
+#countries img {
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+#countries img:hover, .active {
+    background-color: #37384A;
+    transition: .2s;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #37384A;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+button:hover {
+    opacity: 1;
+}
